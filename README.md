@@ -19,13 +19,13 @@ The [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/
     - **_dist_**: names of the districts of Uttar Pradesh
     - **_year_**: year in which the data is gathered
     - **_pop_**: population of each district in 2011
-    - **_obs_**: number of rapes or dowry deaths in each district in 2011
-    - **_exp_**: number of expected cases of rapes or dowry deaths in each district in 2011
+    - **_obs_**: number of rapes and dowry deaths in each district in 2011
+    - **_exp_**: number of expected cases of rapes and dowry deaths in each district in 2011
     - **_Crime_**: 1=rapes, 2=dowry deaths
     - **_X1_**: standardized sex ratio covariate (number of females per 1000 males)
-    - **_X5_**: murder (per 100000 people)
-    - **_X6_**: burglary (per 100000 people)
-    - **_X3_**: female literacy rate (%)
+    - **_X5_**: standardized murder (per 100000 people) covariate 
+    - **_X6_**: standardized burglary (per 100000 people) covariate 
+    - **_X3_**: standardized female literacy rate (%) covariate
 
   - **_carto_UP_**: cartography of the 70 districts of Uttar Pradesh
 
