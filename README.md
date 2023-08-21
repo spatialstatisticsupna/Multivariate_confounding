@@ -44,14 +44,15 @@ The [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/
 
 # R code
 
-R code to implement the procedures to alleviate spatial confounding described in the paper and to reproduce the tables and figures of the paper has been included. 
+R code to implement the M-models with one-step spatial+ procedure is available in the folder [**R**]. The folder contains the code to to fit all the models and reproduce the tables and figures of the paper. 
 
-- [**R/Real_data_analysis**](https://github.com/spatialstatisticsupna/Spatial_confounding_article/tree/main/R/Real_data_analysis) folder contains the R code used in the real data analysis. The R code for the analyisis of dowry death data is presented. Slight modifications included in the code as comments should be done to fit the models to the Slovenian and the Scottish cancer data.
-  - [Figure1.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Real_data_analysis/Figure1.R): R script to reproduce Figure 1 of the paper.
-  - [Covariate_model_eigenvectors.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Real_data_analysis/Covariate_model_eigenvectors.R): R script to fit the covariate model based on the eigenvectors of the spatial precision matrix to remove the spatial dependence from the covariate before fitting the spatial+ model.
-  - [Covariate_model_Psplines.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Real_data_analysis/Covariate_model_Psplines.R): R script to fit the covariate model based on P-splines to remove the spatial dependence from the covariate before fitting the spatial+ model. 
-  - [Covariate_model_TPsplines.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Real_data_analysis/Covariate_model_TPsplines.R): R script to fit the covariate model based on thin plate splines to remove the spatial dependence from the covariate before fitting the spatial+ model.
-  - [Null_Spatial_RSR_SpatPlus_models.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Real_data_analysis/Null_Spatial_RSR_SpatPlus_models.R): R script to fit null, spatial, RSR and spatial+ models to the data.
+- [**R/Real_data_analysis**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Real_data_analysis) folder contains the R code used in the real data analysis.
+  - [Figure1.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/Figure1.R): R script to reproduce Figure 1 of the paper.
+  - [functions](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Real_data_analysis/functions): contains the functions to fit the M-models implemented using rgeneric function of INLA.
+  - [run_MICAR.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/run_MICAR.R): R script to fit the M-Spatial and M-SpatPlus models with ICAR prior.
+  - [run_MPCAR.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/run_MPCAR.R): R script to fit the M-Spatial and M-SpatPlus models with PCAR prior.
+  - [run_MBYM2.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/run_MBYM2.R): R script to fit the M-Spatial and M-SpatPlus models with BYM2 prior. 
+  - [Tables_2_3_4.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/Tables_2_3_4.R): R code to reproduce Table 2, 3 and 4 of the paper.
  
 - [**R/Simulation_Study_1**](https://github.com/spatialstatisticsupna/Spatial_confounding_article/tree/main/R/Simulation_study_1) folder contains the R code used in Simulation Study 1. Before running the models, the options _Scenario_ (scenario 1, 2 or 3) and _Subscenario_ (cor=80, 50 or 20) at the top of the code must be defined.
   - [Figure2.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/Figure2.R): R code to reproduce Figure 2 of the paper.
