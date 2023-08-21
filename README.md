@@ -57,26 +57,21 @@ R code to implement the M-models with one-step spatial+ procedure is available i
 - [**R/Simulation_Study_1**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Simulation_study_1) folder contains the R code used in Simulation Study 1. Before running the M-models, the option _Scenario_ (scenario 1, 2, 3, 4, 5 or 6) must be defined.
   - [SimuStudy1_simulate_data.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/SimuStudy1_simulate_data.R): R code to simulated the 300 counts datasets.
   - [Figure2.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/Figure2.R): R code to reproduce Figure 2 of the paper.
+  - [FigureA1_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA1_supplementary.R): R code to reproduce Figure A1 in the supplementary material.
   - [run_MICAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MICAR_Spat.R): R script to fit the M-Spatial model with ICAR prior to the 300 simulated datasets.
   - [run_MICAR_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MICAR_SpatPlus.R): R script to fit the M-SpatPlus models with ICAR prior to the 300 simulated datasets.
   - [run_MPCAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MPCAR_Spat.R): R script to fit the M-Spatial model with PCAR prior to the 300 simulated datasets.
   - [run_MPCAR_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MPCAR_SpatPlus.R): R script to fit the M-SpatPlus models with PCAR prior to the 300 simulated datasets.
   - [run_MBYM2_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MBYM2_Spat.R): R script to fit the M-Spatial model with BYM2 prior to the 300 simulated datasets.
   - [run_MBYM2_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MBYM2_SpatPlus.R): R script to fit the M-SpatPlus models with BYM2 prior to the 300 simulated datasets.
+  - [SimuStudy1_merge_results.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/SimuStudy1_merge_results.R): R code to combine the models fitted across 300 simulated datasets into a single list.
+  - [Tables_5_6_7_8_9.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Tables_5_6_7_8_9.R): R code to reproduce Table 5, 6, 7, 8 and 9 of the paper for each scenario and prior.
+  - [Figure4.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Figure4.R): R code to reproduce the boxplot in Figure 4.
+  - [Figure5.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Figure5.R): R code to reproduce the boxplot in Figure 5.
+  - [Tables_A1toA11_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Tables_A1toA11_supplementary.R): R code to reproduce Tables A.1 to A.11 of the supplementary material A for each scenario and prior.
+  - [FigureA2_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA2_supplementary.R): R code to reproduce the boxplot in Figure A.2.
+  - [FigureA3_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA3_supplementary.R): R code to reproduce the boxplot in Figure A.3.
  
-- 
-
-  - [SimuStudy1_Null.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_Null.R): R script to fit the null model to the 100 simulated datasets.
-  - [SimuStudy1_Spatial.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_Spatial.R): R script to fit the spatial model to the 100 simulated datasets.
-  - [SimuStudy1_RSR.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_RSR.R): R script to fit the RSR model to the 100 simulated datasets.
-  - [SimuStudy1_SpatialPlus_eigenvectors.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_SpatialPlus_eigenvectors.R): R script to fit SpatPlus5, SpatPlus10, SpatPlus15 and SpatPlus20 models to the 100 simulated datasets.
-  - [SimuStudy1_SpatPlusP1.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_SpatPlusP1.R): R script to fit SpatPlusP1 model to the 100 simulated datasets.
-  - [SimuStudy1_SpatPlusTP1.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_SpatPlusTP1.R): R script to fit SpatPlusTP1 model to the 100 simulated datasets.
-  - [SimuStudy1_SpatPlusP2.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_SpatPlusP2.R): R script to fit SpatPlusP2 model to the 100 simulated datasets.
-  - [SimuStudy1_SpatPlusTP2.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/SimuStudy1_SpatPlusTP2.R): R script to fit SpatPlusTP2 model to the 100 simulated datasets.
-  - [Tables_6_7_8.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/Tables_6_7_8.R): R code to reproduce Table 6, 7 and 8 of the paper for each scenario and subscenario.
-  - [Tables_supplementary_A1_A2_A3_A4.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/Tables_supplementary_A1_A2_A3_A4.R): R code to reproduce Tables A1, A2 and A3 of the supplementary material for each scenario and subscenario.
-  
 
 
 Computations were run using R-4.0.4, INLA version 21.02.23, mgcv version 1.8-40.
