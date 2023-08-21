@@ -74,7 +74,7 @@ R code to implement the M-models with one-step spatial+ procedure is available i
  
 
 
-Computations were run using R-4.0.4, INLA version 21.02.23, mgcv version 1.8-40.
+Computations were run using R-4.2.1, INLA version 22.12.16 (dated 2022-12-23).
 
 # Acknowledgements
 This work has been supported by Project PID2020-113125RB-I00/ MCIN/ AEI/ 10.13039/501100011033.
