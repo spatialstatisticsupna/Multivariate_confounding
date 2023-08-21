@@ -11,48 +11,18 @@ This repository contains the R code to implement the methods described in the pa
 
 
 # Data
-### Dowry deaths data in Uttar Pradesh in 2001 [(Vicente et al., 2020)](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssa.12545)
+### Rapes and dowry deaths data in Uttar Pradesh in 2011 [(Vicente et al., 2020)](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssa.12545)
 
-The [**Dowry_death_2001.Rdata**](https://github.com/spatialstatisticsupna/Spatial_confounding_article/blob/main/Data/Dowry_death_2001.Rdata) file contains the following objects:
-  - **_Data_**: contains the data set used. It is a dataframe with the following variables:
+The [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/Data/data_UttarPradesh_2011.Rdata) file contains the following objects:
+  - **_data_**: contains the data set used. It is a dataframe with the following variables:
     - **_dist_**: names of the districts of Uttar Pradesh
-    - **_ID.area_**: numeric identifiers of districts
+    - **_ID_area_**: numeric identifiers of districts
     - **_O_**: number of dowry deaths in each district in 2001
     - **_E_**: number of expected cases of each district in 2001
     - **_X1_**: standardized sex ratio covariate (number of females per 1000 males)
 
   - **_carto_**: SpatialPolygonDataFrame object with the cartography of the 70 districts (year 2001) of Uttar Pradesh
   - **_Q.xi_**: spatial adjacency matrix
-
-
-### Stomach cancer incidence data in Slovenia during the period 1995-2001 (Zadnik and Reich, 2006)
-
-The [**Slovenia_stomach_cancer**](https://github.com/spatialstatisticsupna/Spatial_confounding_article/blob/main/Data/Slovenia_stomach_cancer.Rdata) file contains the following objects:
-  - **_Data_**: contains the data set used. It is a dataframe with the following variables:
-    - **_ID.area_**: numeric district identifiers
-    - **_O_**: number of stomach cancer cases in each area during 1995-2001
-    - **_E_**: number of expected cases in each area during 1995-2001
-    - **_X_**: standardized socioeconomic indicator
-    
-  - **_coord_**: a matrix that contains the coordinates of the 192 areas of Slovenia
-  - **_Q.xi_**: spatial adjacency matrix
-  
-  
-_Slovenia data set is available from the package RASCO of R [https://github.com/DouglasMesquita/RASCO](https://github.com/DouglasMesquita/RASCO). This dataset is also available from the [web page of James Hogdes](https://www.biostat.umn.edu/~hodges/RPLMBook/Datasets/Datasets.html)_.
-
-
-### Lip cancer incidence data in Scotland during 1975-1980 [(Breslow and Clayton, 1993)](https://www.jstor.org/stable/2290687?origin=crossref#metadata_info_tab_contents)
-
-The [**Scotland_lip_cancer.Rdata**](https://github.com/spatialstatisticsupna/Spatial_confounding_article/blob/main/Data/Scotland_lip_cancer.Rdata) file contains the following objects:
-  - **_Data_**: contains the data set used. It is a dataframe with the following variables:
-    - **_ID.area_**: numeric district identifiers
-    - **_O_**: number of lip cancer cases in each area during 1975-1980
-    - **_E_**: number of expected cases in each area during 1975-1980
-    - **_AFF_**: standardized covariate indicating the proportion of the population engaged in agriculture, fishing, or forestry
-
-  - **_carto_**: SpatialPolygonDataFrame object with the cartography of the 56 districts of Scotland
-  - **_Q.xi_**: spatial adjacency matrix
-
 
 
 # Simulated data
