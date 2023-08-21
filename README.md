@@ -15,14 +15,20 @@ This repository contains the R code to implement the methods described in the pa
 
 The [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/Data/data_UttarPradesh_2011.Rdata) file contains the following objects:
   - **_data_**: contains the data set used. It is a dataframe with the following variables:
-    - **_dist_**: names of the districts of Uttar Pradesh
     - **_ID_area_**: numeric identifiers of districts
-    - **_O_**: number of dowry deaths in each district in 2001
-    - **_E_**: number of expected cases of each district in 2001
+    - **_dist_**: names of the districts of Uttar Pradesh
+    - **_year_**: year in which the data is gathered
+    - **_pop_**: population of each district in 2011
+    - **_obs_**: number of rapes or dowry deaths in each district in 2011
+    - **_exp_**: number of expected cases of rapes or dowry deaths in each district in 2011
+    - **_Crime_**: 1=rapes, 2=dowry deaths
     - **_X1_**: standardized sex ratio covariate (number of females per 1000 males)
+    - **_X5_**: murder (per 100000 people)
+    - **_X6_**: burglary (per 100000 people)
+    - **_X3_**: female literacy rate (%)
 
-  - **_carto_**: SpatialPolygonDataFrame object with the cartography of the 70 districts (year 2001) of Uttar Pradesh
-  - **_Q.xi_**: spatial adjacency matrix
+  - **_carto_UP_**: cartography of the 70 districts of Uttar Pradesh
+
 
 
 # Simulated data
