@@ -55,7 +55,7 @@ The folder labeled [R](https://github.com/spatialstatisticsupna/Multivariate_con
  
 - [**R/Simulation_Study_1**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Simulation_study_1) folder comprises the R code employed during Simulation Study 1. Before running the scripts, the option _Scenario_ (selecting from scenarios 1, 2, 3, 4, 5 or 6) must be defined.
   - [SimuStudy1_simulate_data.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/SimuStudy1_simulate_data.R): R code to simulate the 300 counts datasets for crime 1 and crime 2.
-  - [Figure2.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/Figure2.R): R code to reproduce Figure 2 of the paper.
+  - [Figure2.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Figure2.R): R code to reproduce Figure 2 of the paper.
   - [run_MICAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MICAR_Spat.R): R script to fit the M-Spatial model with ICAR prior to the 300 simulated datasets.
   - [run_MICAR_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MICAR_SpatPlus.R): R script to fit the M-SpatPlus models with ICAR prior to the 300 simulated datasets.
   - [run_MPCAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MPCAR_Spat.R): R script to fit the M-Spatial model with PCAR prior to the 300 simulated datasets.
@@ -73,7 +73,7 @@ The folder labeled [R](https://github.com/spatialstatisticsupna/Multivariate_con
  
 - [**R/Simulation_Study_2**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Simulation_study_2) folder comprises the R code employed during Simulation Study 2. Before running the scripts, the option _Scenario_ (selecting from scenarios 1, 2, 3, 4 or 5) must be defined.
   - [SimuStudy2_simulate_data.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/SimuStudy2_simulate_data.R): R code to simulate the 300 counts datasets for crime 1 and crime 2.
-  - [Figure3.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_2/Figure3.R): R code to reproduce Figure 3 of the paper.
+  - [Figure3.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/Figure3.R): R code to reproduce Figure 3 of the paper.
   - [run_MICAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MICAR_Spat.R): R script to fit the M-Spatial model with ICAR prior to the 300 simulated datasets.
   - [run_MICAR_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MICAR_SpatPlus.R): R script to fit the M-SpatPlus models with ICAR prior to the 300 simulated datasets.
   - [run_MPCAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MPCAR_Spat.R): R script to fit the M-Spatial model with PCAR prior to the 300 simulated datasets.
