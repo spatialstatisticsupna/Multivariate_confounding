@@ -32,7 +32,7 @@ The [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/
 
 
 # Simulated data
-The [Simulated_data](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/Simulated_data) encompasses a collection of 11 .Rdata files, with each file corresponding to a distinct scenario employed in Simulation Study 1 and Simulation Study 2. Each .Rdata file contains the same objects as [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/Data/data_UttarPradesh_2011.Rdata) (**_data_** and **_carto_UP_**). However, in Simulation study 1, a simulated covariate $X=(X_2, X_3)'$ is added to **_data_**, whereas Simulation Study 2 involves the inclusion of both the simulated covariate $X_1^{*}$ and the spatial effects $\theta=(\theta_1, \theta_2)'$. Additionally, every .Rdata file also accommodates the subsequent objects:
+The [**Simulated_data**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/Simulated_data) encompasses a collection of 11 .Rdata files, with each file corresponding to a distinct scenario employed in Simulation Study 1 and Simulation Study 2. Each .Rdata file contains the same objects as [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/Data/data_UttarPradesh_2011.Rdata) (**_data_** and **_carto_UP_**). However, in Simulation study 1, a simulated covariate $X=(X_2, X_3)'$ is added to **_data_**, whereas Simulation Study 2 involves the inclusion of both the simulated covariate $X_1^{*}$ and the spatial effects $\theta=(\theta_1, \theta_2)'$. Additionally, every .Rdata file also accommodates the subsequent objects:
 - **_log.risk_**: a vector that contains the simulated log risks for both crimes
 - **_log.risk.crime1_**: a vector that contains the simulated log risks for crime 1
 - **_log.risk.crime2_**: a vector that contains the simulated log risks for crime 2
@@ -43,7 +43,7 @@ The [Simulated_data](https://github.com/spatialstatisticsupna/Multivariate_confo
 
 # R code
 
-The folder labeled [R](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R) holds the necessary R code for executing the M-models using a one-step spatial+ approach. The folder contains the code to fit all the models and reproduce the tables and figures of the paper. 
+The folder labeled [**R**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R) holds the necessary R code for executing the M-models using a one-step spatial+ approach. The folder contains the code to fit all the models and reproduce the tables and figures of the paper. 
 
 - [**R/Real_data_analysis**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Real_data_analysis) folder contains the R code used in the real data analysis.
   - [Figure1.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/Figure1.R): R script to reproduce Figure 1 of the paper.
