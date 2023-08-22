@@ -43,11 +43,11 @@ The [Simulated_data](https://github.com/spatialstatisticsupna/Multivariate_confo
 
 # R code
 
-The folder labeled [**R**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R) holds the necessary R code for executing the M-models using a one-step spatial+ approach. The folder contains the code to fit all the models and reproduce the tables and figures of the paper. 
+The folder labeled [R](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R) holds the necessary R code for executing the M-models using a one-step spatial+ approach. The folder contains the code to fit all the models and reproduce the tables and figures of the paper. 
 
 - [**R/Real_data_analysis**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Real_data_analysis) folder contains the R code used in the real data analysis.
   - [Figure1.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/Figure1.R): R script to reproduce Figure 1 of the paper.
-  - [functions](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Real_data_analysis/functions): contains the functions to fit the M-models implemented using rgeneric function of INLA.
+  - [functions](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Real_data_analysis/functions): folder that contains the functions of M-models implemented using rgeneric function of INLA.
   - [run_MICAR.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/run_MICAR.R): R script to fit the M-Spatial and M-SpatPlus models with ICAR prior.
   - [run_MPCAR.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/run_MPCAR.R): R script to fit the M-Spatial and M-SpatPlus models with PCAR prior.
   - [run_MBYM2.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/run_MBYM2.R): R script to fit the M-Spatial and M-SpatPlus models with BYM2 prior. 
