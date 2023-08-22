@@ -66,7 +66,7 @@ The folder labeled [R](https://github.com/spatialstatisticsupna/Multivariate_con
   - [Tables_5_6_7_8_9.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Tables_5_6_7_8_9.R): R code to reproduce Table 5, 6, 7, 8 and 9 of the paper for each scenario and prior.
   - [Figure4.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Figure4.R): R code to reproduce the boxplots in Figure 4.
   - [Figure5.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Figure5.R): R code to reproduce the boxplots in Figure 5.
-  - [FigureA1_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA1_supplementary.R): R code to reproduce Figure A1 in the supplementary material.
+  - [FigureA1_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA1_supplementary.R): R code to reproduce Figure A.1 in the supplementary material.
   - [Tables_A1toA11_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/Tables_A1toA11_supplementary.R): R code to reproduce Tables A.1 to A.11 of the supplementary material A for each scenario and prior.
   - [FigureA2_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA2_supplementary.R): R code to reproduce the boxplots in Figure A.2.
   - [FigureA3_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA3_supplementary.R): R code to reproduce the boxplots in Figure A.3.
