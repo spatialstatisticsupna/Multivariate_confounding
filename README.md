@@ -53,8 +53,8 @@ The folder labeled [R](https://github.com/spatialstatisticsupna/Multivariate_con
   - [run_MBYM2.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/run_MBYM2.R): R script to fit the M-Spatial and M-SpatPlus models with BYM2 prior. 
   - [Tables_2_3_4.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Real_data_analysis/Tables_2_3_4.R): R code to reproduce Table 2, 3 and 4 of the paper.
  
-- [**R/Simulation_Study_1**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Simulation_study_1) folder contains the R code used in Simulation Study 1. Before running the M-models, the option _Scenario_ (scenario 1, 2, 3, 4, 5 or 6) must be defined.
-  - [SimuStudy1_simulate_data.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/SimuStudy1_simulate_data.R): R code to simulated the 300 counts datasets.
+- [**R/Simulation_Study_1**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Simulation_study_1) folder comprises the R code employed during Simulation Study 1. Before running the scripts, the option _Scenario_ (selecting from scenarios 1, 2, 3, 4, 5 or 6) must be defined.
+  - [SimuStudy1_simulate_data.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/SimuStudy1_simulate_data.R): R code to simulate the 300 counts datasets for crime 1 and crime 2.
   - [Figure2.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_1/Figure2.R): R code to reproduce Figure 2 of the paper.
   - [FigureA1_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA1_supplementary.R): R code to reproduce Figure A1 in the supplementary material.
   - [run_MICAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/run_MICAR_Spat.R): R script to fit the M-Spatial model with ICAR prior to the 300 simulated datasets.
