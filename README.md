@@ -71,6 +71,24 @@ The folder labeled [R](https://github.com/spatialstatisticsupna/Multivariate_con
   - [FigureA2_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA2_supplementary.R): R code to reproduce the boxplots in Figure A.2.
   - [FigureA3_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_1/FigureA3_supplementary.R): R code to reproduce the boxplots in Figure A.3.
  
+- [**R/Simulation_Study_2**](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/R/Simulation_study_2) folder comprises the R code employed during Simulation Study 2. Before running the scripts, the option _Scenario_ (selecting from scenarios 1, 2, 3, 4 or 5) must be defined.
+  - [SimuStudy2_simulate_data.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/SimuStudy2_simulate_data.R): R code to simulate the 300 counts datasets for crime 1 and crime 2.
+  - [Figure3.R](https://github.com/spatialstatisticsupna/Simulation_confounding_article/blob/main/R/Simulation_study_2/Figure3.R): R code to reproduce Figure 3 of the paper.
+  - [run_MICAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MICAR_Spat.R): R script to fit the M-Spatial model with ICAR prior to the 300 simulated datasets.
+  - [run_MICAR_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MICAR_SpatPlus.R): R script to fit the M-SpatPlus models with ICAR prior to the 300 simulated datasets.
+  - [run_MPCAR_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MPCAR_Spat.R): R script to fit the M-Spatial model with PCAR prior to the 300 simulated datasets.
+  - [run_MPCAR_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MPCAR_SpatPlus.R): R script to fit the M-SpatPlus models with PCAR prior to the 300 simulated datasets.
+  - [run_MBYM2_Spat.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MBYM2_Spat.R): R script to fit the M-Spatial model with BYM2 prior to the 300 simulated datasets.
+  - [run_MBYM2_SpatPlus.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/run_MBYM2_SpatPlus.R): R script to fit the M-SpatPlus models with BYM2 prior to the 300 simulated datasets.
+  - [SimuStudy1_merge_results.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/SimuStudy2_merge_results.R): R code to combine the models fitted across 300 simulated datasets into a single list.
+  - [Tables_10_11_12_13_14.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/Tables_10_11_12_13_14.R): R code to reproduce Table 10, 11, 12, 13 and 14 of the paper for each scenario and prior.
+  - [Figure6.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/Figure6.R): R code to reproduce the boxplots in Figure 6.
+  - [Figure7.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/Figure7.R): R code to reproduce the boxplots in Figure 7.
+  - [FigureB4_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/FigureB4_supplementary.R): R code to reproduce Figure B.4 in the supplementary material.
+  - [Tables_B12toB22_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/Tables_B12toB22_supplementary.R): R code to reproduce Tables B.12 to B.22 of the supplementary material B for each scenario and prior.
+  - [FigureB5_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/FigureB5_supplementary.R): R code to reproduce the boxplots in Figure B.5.
+  - [FigureB6_supplementary.R](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/R/Simulation_study_2/FigureB6_supplementary.R): R code to reproduce the boxplots in Figure B.6.
+ 
 
 
 Computations were run using R-4.2.1, INLA version 22.12.16 (dated 2022-12-23).
