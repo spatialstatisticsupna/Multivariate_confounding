@@ -32,8 +32,7 @@ The [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/
 
 
 # Simulated data
-[Simulated_data](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/Simulated_data) folder contains a total of 11 .Rdata files (one file for each scenario) used in Simulation Study 1 and Simulation Study 2. Each .Rdata file contains the same objects as [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/Data/data_UttarPradesh_2011.Rdata) (**_data_** and **_carto_UP_**) but in Simulation study 1 a simulated covariate $X=(X_2, X_3)'$ is added to **_data_** whereas for Simulation study 2 the simulated covariate $X_1^{*}$ and the spatial effects $\theta=(\theta_1, \theta_2)'$ are added. Moreover, each .Rdata contains the following objects as well:
-
+The [Simulated_data](https://github.com/spatialstatisticsupna/Multivariate_confounding/tree/main/Simulated_data) encompasses a collection of 11 .Rdata files, with each file corresponding to a distinct scenario employed in Simulation Study 1 and Simulation Study 2. Each .Rdata file contains the same objects as [**data_UttarPradesh_2011.Rdata**](https://github.com/spatialstatisticsupna/Multivariate_confounding/blob/main/Data/data_UttarPradesh_2011.Rdata) (**_data_** and **_carto_UP_**). However, in Simulation study 1, a simulated covariate $X=(X_2, X_3)'$ is introduced to **_data_**, whereas Simulation Study 2 involves the inclusion of both the simulated covariate $X_1^{*}$ and the spatial effects $\theta=(\theta_1, \theta_2)'$. Additionally, every .Rdata file also accommodates the subsequent objects:
 - **_log.risk_**: a vector that contains the simulated log risks for both crimes
 - **_log.risk.crime1_**: a vector that contains the simulated log risks for crime 1
 - **_log.risk.crime2_**: a vector that contains the simulated log risks for crime 2
