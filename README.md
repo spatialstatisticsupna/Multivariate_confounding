@@ -1,4 +1,4 @@
-# A one-step spatial+ approach to mitigate spatial confounding in multivariate spatial areal models
+# A simplified spatial+ approach to mitigate spatial confounding in multivariate spatial areal models
 This repository contains the R code to implement the methods described in the paper entitled "A simplified spatial+ approach to mitigate spatial confounding in multivariate spatial areal models" (Urdangarin et al., 2023) as well as the R code to create the figures and tables presented in the paper.
 
 
