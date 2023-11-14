@@ -11,7 +11,7 @@ n.sim <- 300
 
 
 # Define the scenario
-# scenario <- "Scenario3"
+scenario <- "Scenario3"
 # scenario <- "Scenario4"
 # scenario <- "Scenario5"
 # scenario <- "Scenario6"
