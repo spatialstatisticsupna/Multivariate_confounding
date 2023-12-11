@@ -12,9 +12,6 @@ n.sim <- 300
 # Define the scenario
 scenario <- "Scenario1"
 # scenario <- "Scenario2"
-# scenario <- "Scenario3"
-# scenario <- "Scenario4"
-# scenario <- "Scenario5"
 
 
 # Choose the spatial prior
