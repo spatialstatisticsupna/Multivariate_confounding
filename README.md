@@ -98,5 +98,5 @@ This work has been supported by Project PID2020-113125RB-I00/ MCIN/ AEI/ 10.1303
 ![image](https://github.com/spatialstatisticsupna/Comparing-R-INLA-and-NIMBLE/blob/main/micin-aei.jpg)
  
 # References
-[Urdangarin, A., Goicoa, T. , Kneib, T. and Ugarte, M.D. (2023). A one-step spatial+ approach to mitigate spatial confounding in multivariate spatial areal models. _Spatial Statistics (in press)_, DOI: 10.48550/arXiv.2308.11260.](https://doi.org/10.48550/arXiv.2308.11260)
+[Urdangarin, A., Goicoa, T. , Kneib, T. and Ugarte, M.D. (2023). A simplified spatial+ approach to mitigate spatial confounding in multivariate spatial areal models. _Spatial Statistics (in press)_, DOI: 10.48550/arXiv.2308.11260.](https://doi.org/10.48550/arXiv.2308.11260)
 	
