@@ -94,6 +94,3 @@ if(!file.exists("results")) dir.create("results")
 # Save the results
 save(mbym2, mbym2.eigen64, mbym2.eigen59, mbym2.eigen54, mbym2.eigen49,
      file="results/MBYM2_dowry_rapes_vs_sexratio_2011.Rdata")
-
-
-

@@ -8,7 +8,7 @@ Mmodel.pcar.bartlett <- function(
   
   envir <- parent.env(environment())
   if(!exists("cache.done", envir=envir)){
-    DiagD <- Diagonal(x=colSums(W))
+    DiagD <- Matrix::Diagonal(x=colSums(W))
     assign("DiagD", DiagD, envir=envir)
     assign("cache.done", TRUE, envir=envir)
   }
@@ -44,9 +44,10 @@ Mmodel.pcar.bartlett <- function(
   Q <- function(){
     param <- interpret.theta()
     M.inv <- solve(param$M)
-    MI <- kronecker(M.inv, Diagonal(nrow(W)))
+    MI <- kronecker(M.inv, Matrix::Diagonal(nrow(W)))
     BlockIW <- kronecker(diag(J),DiagD)-kronecker(diag(param$alpha),W)
-    Q <- (MI %*% BlockIW) %*% t(MI)
+    Q <- (MI %*% BlockIW) %*% Matrix::t(MI)
+    Q <- INLA::inla.as.sparse(Q)
     return(Q)
   }
   

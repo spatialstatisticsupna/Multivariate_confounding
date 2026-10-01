@@ -8,7 +8,7 @@ Mmodel.bym2.bartlett <- function(
   
   envir <- parent.env(environment())
   if(!exists("cache.done", envir=envir)){
-    Qi <- Diagonal(x=colSums(W))-W
+    Qi <- Matrix::Diagonal(x=colSums(W))-W
     Ue <- eigen(Qi)$vectors
     eval <- exp(mean(log(diag(INLA:::inla.ginv(Qi)))))
     eigen <- eigen(Qi)$values[-nrow(Qi)] 
@@ -53,10 +53,10 @@ Mmodel.bym2.bartlett <- function(
     MI <- kronecker(M.inv, Ue)
     BlockIW <- 
       Matrix::bdiag(lapply(1:J, function(i) {
-        Matrix::Diagonal(x=c(eigen/(eigen+param$alpha[i]*(eval-eigen)), 1/(1-param$alpha[i])))
+        Matrix::Diagonal(x=c(eval*eigen/(param$alpha[i] + eigen*eval*(1-param$alpha[i])), 1/(1-param$alpha[i])))
       }))
     Q <- (MI %*% BlockIW) %*% t(MI)
-    Q <- inla.as.sparse(Q)
+    Q <- INLA::inla.as.sparse(Q)
     return (Q)
   }
 

@@ -94,6 +94,3 @@ if(!file.exists("results")) dir.create("results")
 # Save the results
 save(micar, micar.eigen64, micar.eigen59, micar.eigen54, micar.eigen49,
      file="results/MICAR_dowry_rapes_vs_sexratio_2011.Rdata")
-
-
-

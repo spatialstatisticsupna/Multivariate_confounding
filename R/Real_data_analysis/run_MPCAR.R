@@ -94,5 +94,3 @@ if(!file.exists("results")) dir.create("results")
 # Save the results
 save(mpcar, mpcar.eigen64, mpcar.eigen59, mpcar.eigen54, mpcar.eigen49,
      file="results/MPCAR_dowry_rapes_vs_sexratio_2011.Rdata")
-
-

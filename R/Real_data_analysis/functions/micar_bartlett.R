@@ -8,7 +8,7 @@ Mmodel.icar.bartlett <- function(
   
   envir <- parent.env(environment())
   if(!exists("cache.done", envir=envir)){
-    IW <- Diagonal(x=colSums(W))-W
+    IW <- Matrix::Diagonal(x=colSums(W))-W
     assign("IW", IW, envir=envir)
     assign("cache.done", TRUE, envir=envir)
   }
@@ -43,6 +43,7 @@ Mmodel.icar.bartlett <- function(
    param <- interpret.theta()
    Covar.inv <- solve(param$Covar)
    Q <- kronecker(Covar.inv, IW)
+   Q <- INLA::inla.as.sparse(Q)
    return(Q)
   }
   
